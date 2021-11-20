@@ -1,0 +1,246 @@
+.container{
+    width: 943px;
+    margin: 0 auto;
+}
+
+.menu{
+    font-family: 'Gilroy Bold';
+    font-size: 18px;
+    padding-top: 33px;
+    margin-bottom: 32px;
+}
+
+.menu_list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu_item{
+    display: inline-block;
+    color: #828282;
+    text-decoration: none;
+    transition: color .1s linear;
+}
+
+.menu_item:hover{
+    color: #000000;
+}
+
+.separator{
+    border: .2px solid #828282;
+}
+
+.hero{
+    margin-top: 40px;
+}
+
+.hero_inner{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Gilroy Medium';
+}
+
+.hero_title{
+    font-family: 'Gilroy Bold';
+    font-size: 34px;
+}
+
+.hero_text{
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.hero_lang{
+    font-family: 'Gilroy Bold';
+    color: #828282; 
+    transform: rotate(270deg);
+    margin-right: -50px;
+}
+
+.hero_ru,
+.hero_eng{
+    text-decoration: none;
+    color: #828282;
+    transition: color .1s linear;
+}
+
+.hero_ru:hover,
+.hero_eng:hover{
+    color: #000000;
+}
+
+.hero_img{
+    margin-top: 50px;
+    margin-bottom: 105px;
+}
+
+.about{
+    background-color: #F6F6F6;
+    padding-top: 120px;
+    padding-bottom: 73px;
+}
+
+.about_title{
+    font-size: 34px;
+    font-family: 'Gilroy Bold';
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.about_text{
+    font-family: 'Gilroy Medium';
+    text-align: center;
+    font-size: 18px;
+}
+
+.about_text_item{
+    margin-bottom: 35px;
+    line-height: 1.4;
+}
+
+.skills{
+    padding-top: 91px;
+}
+
+.skills_program_img{
+    display: block;
+    margin: 0 auto;
+}
+
+.skills_title{
+    font-family: 'Gilroy Bold';
+    font-size: 34px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.skills_text{
+    font-family: 'Gilroy Medium';
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 91px;
+}
+
+.sklls_programs{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 115px;
+}
+
+.skills_program_name{
+    text-align: center;
+    font-family: 'Gilroy Bold';
+    font-size: 14px;
+    margin-top: 25px;
+    color: #828282;
+    margin-bottom: 40px;
+}
+
+.portfolio{
+    background-color: #F6F6F6;
+    padding-top: 110px;
+}
+
+.portfolio_title{
+    font-size: 34px;
+    font-family: 'Gilroy Bold';
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.portfolio_works_image{
+    margin-bottom: 45px;
+}
+
+.portfolio_woks_text{
+    display: block;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.portfolio_woks_text a{
+    font-size: 18px;
+    font-family: 'Gilroy Medium';
+    text-decoration: none;
+    color: #000000;
+}
+
+.portfolio_woks_text a:hover{
+    text-decoration: underline;
+}
+
+.footer{
+    padding-top: 113px;
+}
+
+.footer_title{
+    font-family: 'Gilroy Bold';
+    font-size: 34px;
+    text-align: center;
+    margin-bottom: 34px;
+}
+
+.footer_text{
+    text-align: center;
+    font-family: 'Gilroy Medium';
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 1.4;
+}
+
+.footer_btn{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 85px;
+}
+
+.footer_button{
+    font-family: 'Gilroy Bold';
+    text-decoration: none;
+    color: #ffffff;
+    background-color:#000000;
+    padding: 15px 30px;
+    border-radius: 30px;
+    border: 3px solid #000000;
+    transition: color .1s linear;
+    transition: background-color .1s linear;
+}
+
+.footer_button:hover{
+    background-color:#ffffff;
+    color: #000000;
+}
+
+
+.footer_social{
+    margin: 0 auto;
+    width: 342px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 45px;
+}
+
+.footer_description{
+    margin-bottom: 100px;
+}
+
+.footer_description_item{
+    text-align: center;
+    font-size: 14px;
+    color:#828282;
+    font-family: 'Gilroy Medium';
+}
+
+@font-face {
+    font-family: 'Gilroy Medium';
+    src: url(../fonts/Gilroy-Medium.ttf);
+    font-weight: normal;
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'Gilroy Bold';
+    src: url(../fonts/Gilroy-Bold.ttf);
+    font-weight: normal;
+    font-style: normal;
+    }
